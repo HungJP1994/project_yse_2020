@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/homeView.jsp=UTF-8
 encoding//src/mvc/conn/ConnectionUtils.java=UTF-8
 encoding//src/mvc/filtter/CookieFilter.java=UTF-8
 encoding//src/mvc/filtter/JDBCFilter.java=UTF-8
