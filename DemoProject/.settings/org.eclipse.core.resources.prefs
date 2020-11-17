@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/mvc/conn/ConnectionUtils.java=UTF-8
+encoding//src/mvc/filtter/CookieFilter.java=UTF-8
+encoding//src/mvc/filtter/JDBCFilter.java=UTF-8
+encoding//src/mvc/utils/MyUtils.java=UTF-8
+encoding//src/servlet/HomeServlet.java=UTF-8
