@@ -30,6 +30,8 @@ public class HomeServlet extends HttpServlet {
 		// đặt trong WEB-INF)
 		RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/WEB-INF/views/homeView.jsp");
 		dispatcher.forward(request, response);
+		response.setContentType("text/html;charset=UTF-8");
+		request.setCharacterEncoding("utf-8");
 
 	}
 
