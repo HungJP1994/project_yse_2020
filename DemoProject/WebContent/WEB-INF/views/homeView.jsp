@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link href="../css/header_hover.css" rel="stylesheet" type="text/css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script
@@ -20,6 +19,32 @@
 	height: 200px;
 	background: #aaa;
 }
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 250px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
 </style>
 </head>
 <body>
@@ -30,9 +55,23 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<h2>私のこと</h2>
-				<div class="fakeimg"><img src="image/aboutme.jpg" alt="Chania" class="img-thumbnail"></div>
-				
-				
+				<div class="fakeimg">
+					<img src="images/aboutme.jpg" alt="Chania"
+						class="img-thumbnail img">
+				</div>
+				<script>
+					$(document)
+							.ready(
+									function() {
+										$('.img')
+												.tooltip(
+														{
+															title : "<h1><strong>HTML</strong> inside <code>the</code> <em>tooltip</em></h1>",
+															html : true,
+															placement : "right"
+														});
+									});
+				</script>
 			</div>
 			<div class="col-sm-8">
 				<h2>TITLE HEADING</h2>
