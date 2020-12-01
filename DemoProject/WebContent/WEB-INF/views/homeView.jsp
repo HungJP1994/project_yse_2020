@@ -19,33 +19,16 @@
 	height: 200px;
 	background: #aaa;
 }
-
-.tooltip {
-	position: relative;
-	display: inline-block;
-	border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-	visibility: hidden;
-	width: 250px;
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	border-radius: 6px;
-	padding: 5px 0;
-	/* Position the tooltip */
-	position: absolute;
-	z-index: 1;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-	visibility: visible;
-}
 </style>
+<script>
+	$(document).ready(function() {
+		$('.img').tooltip({
+			title : "<h3><strong>私は</strong>ベトナムから参りまし。留学生として日本へ来ました</h3>",
+			html : true,
+			placement : "right"
+		});
+	});
+</script>
 </head>
 <body>
 
@@ -56,22 +39,8 @@
 			<div class="col-sm-4">
 				<h2>私のこと</h2>
 				<div class="fakeimg">
-					<img src="images/aboutme.jpg" alt="Chania"
-						class="img-thumbnail img">
+					<img src="images/about.jpg" alt="Chania" class="img-thumbnail img"　>
 				</div>
-				<script>
-					$(document)
-							.ready(
-									function() {
-										$('.img')
-												.tooltip(
-														{
-															title : "<h1><strong>HTML</strong> inside <code>the</code> <em>tooltip</em></h1>",
-															html : true,
-															placement : "right"
-														});
-									});
-				</script>
 			</div>
 			<div class="col-sm-8">
 				<h2>TITLE HEADING</h2>

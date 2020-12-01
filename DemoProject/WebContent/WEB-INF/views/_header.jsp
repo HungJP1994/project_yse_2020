@@ -3,7 +3,10 @@
 
 <style>
 .carousel-inner img {
-	width: 100%;
+	width: 70%;
+	margin: auto;
+	display: block;
+	height: 40%;
 }
 </style>
 <!-- <div class="jumbotron text-center" style="margin-bottom: 0"> -->
@@ -13,22 +16,26 @@
 <div id="demo" class="carousel slide" data-ride="carousel">
 
 	<!-- Indicators -->
-	<ul class="carousel-indicators">
+	<ol class="carousel-indicators">
 		<li data-target="#demo" data-slide-to="0" class="active"></li>
 		<li data-target="#demo" data-slide-to="1"></li>
 		<li data-target="#demo" data-slide-to="2"></li>
-	</ul>
+	</ol>
 
 	<!-- The slideshow -->
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="images/dongcovatrau.jpg" alt="Los Angeles" >
+			<img src="images/image2.jpg" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h4>ベトナムの</h4>
+				<p>...</p>
+			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="images/travel3.png" alt="Chicago" >
+			<img src="images/image1.jpg" alt="Chicago">
 		</div>
 		<div class="carousel-item">
-			<img src="images/travel2.jpg" alt="New York" >
+			<img src="images/image3.jpg" alt="New York">
 		</div>
 	</div>
 
