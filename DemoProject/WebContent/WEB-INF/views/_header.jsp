@@ -27,7 +27,7 @@
 		<div class="carousel-item active">
 			<img src="images/image2.jpg" alt="...">
 			<div class="carousel-caption d-none d-md-block">
-				<h4>ベトナムの</h4>
+				<h3 style="color: white;"><strong>ベトナム旅行</strong></h3>
 				<p>...</p>
 			</div>
 		</div>
