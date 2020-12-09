@@ -13,7 +13,7 @@
 <!-- 	<img src="image/header_image.jpg" alt="Chania" class="img-thumbnail"> -->
 <!-- </div> -->
 
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div id="demo" class="carousel slide" data-ride="carousel" style="background-color:#CCFFFF;">
 
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
