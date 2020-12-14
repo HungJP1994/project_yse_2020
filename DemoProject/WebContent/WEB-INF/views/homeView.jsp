@@ -10,6 +10,7 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script
@@ -58,8 +59,8 @@
 							<img src="images/travel1.jpg" class="rounded-circle"
 								alt="Cinque Terre" height="350">
 						</div>
-						<p>ベトナムと言ったら</p>
-						<p>1000年以上にわたり首都として栄えてきた首都のハノイには、各時代の歴史的建造物が多く残されています。李朝時代に建てられたお寺をはじめ、フランス統治時代の建築物、ベトナム戦争時代の収容所などベトナムの歴史を語るのにハノイは切り離せない街です。
+						<p class="text_css">ベトナムと言ったら</p>
+						<p class="text_css">1000年以上にわたり首都として栄えてきた首都のハノイには、各時代の歴史的建造物が多く残されています。李朝時代に建てられたお寺をはじめ、フランス統治時代の建築物、ベトナム戦争時代の収容所などベトナムの歴史を語るのにハノイは切り離せない街です。
 
 							近年では観光地化もすすめられており、建物は整備されてきています。ハロン湾やニンビンに行く場合には観光拠点としても利用できます</p>
 					</div>
