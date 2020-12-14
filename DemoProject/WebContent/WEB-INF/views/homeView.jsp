@@ -9,6 +9,7 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script
@@ -39,32 +40,47 @@
 	<div class="container-fluid" style="background-color: #FFFFCC;">
 		<div class="row">
 			<div class="col-sm-3" class="btn btn-link">
-				<h2><a href="#">私のこと</a></h2>
+				<h2>
+					<a href="#">私のこと</a>
+				</h2>
 				<div>
 					<img src="images/about.jpg" alt="Chania" class="img-thumbnail img"　>
 				</div>
 			</div>
 			<div class="col-sm-9">
-				<h2>
-					<strong>ベトナムはどこの国ですか？</strong>
-				</h2>
-				<h5>Dec 7, 2017</h5>
-				<div>
-					<img src="images/travel1.jpg" class="rounded-circle"
-						alt="Cinque Terre" height="350">
+				<div class="container-fluid">
+					<h2>
+						<strong>ベトナムはどこの国ですか？</strong>
+					</h2>
+					<h5>Dec 7, 2017</h5>
+					<div class="container">
+						<div>
+							<img src="images/travel1.jpg" class="rounded-circle"
+								alt="Cinque Terre" height="350">
+						</div>
+						<p>ベトナムと言ったら</p>
+						<p>1000年以上にわたり首都として栄えてきた首都のハノイには、各時代の歴史的建造物が多く残されています。李朝時代に建てられたお寺をはじめ、フランス統治時代の建築物、ベトナム戦争時代の収容所などベトナムの歴史を語るのにハノイは切り離せない街です。
+
+							近年では観光地化もすすめられており、建物は整備されてきています。ハロン湾やニンビンに行く場合には観光拠点としても利用できます</p>
+					</div>
 				</div>
-				<p>ベトナムと言ったら</p>
-				<p>ベトナムは素晴らしい歴史を持つ国として知られており、戦争は世界の歴史に入っています</p>
-				<br>
-				<h2>
-					<strong>豊かな料理</strong>
-				</h2>
-				<h5>Sep 2, 2017</h5>
-				<div>
-					<img src="images/amthuc1.jpg" class="rounded-circle"
-						alt="Cinque Terre" height="350">
+				<div class="container-fluid">
+					<h2>
+						<strong>豊かな料理</strong>
+					</h2>
+					<h5>Sep 2, 2017</h5>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<img src="images/amthuc1.jpg" class="rounded-circle"
+									alt="Cinque Terre" height="350">
+							</div>
+							<div class="col-sm-6">
+								<p class="text_css">ベトナムは、フランス統治時代の面影が残る首都ハノイやホーチミン、世界遺産ハロン湾とホイアン、ビーチリゾートのダナンなど人気の観光地が数多くあります。日本人の口にも合う美味しいグルメや可愛い雑貨など、女子旅の旅行先としても魅力の地。</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<p>国の3つの地域からの料理のユニークな組み合わせによる豊かな料理</p>
 			</div>
 		</div>
 	</div>
